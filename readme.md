@@ -78,7 +78,8 @@ The NEAT algorithm's parameters are configured in the NEAT_config.txt file. You 
 - Python 3.x
 - Pygame
 - NEAT-Python
-\\ You can install all dependencies via the requirements.txt file.
+
+""" You can install all dependencies via the requirements.txt file """
 
 ## Credits
 This project was developed as a demonstration of the NEAT algorithm combined with the classic Flappy Bird game.
