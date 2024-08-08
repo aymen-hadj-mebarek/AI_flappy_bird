@@ -36,10 +36,10 @@ This project uses the NEAT algorithm to train a neural network that can play the
 2. **Install Dependencies:**
 
 You need Python 3.x installed. Install the required Python packages using pip:
-```bash
-pip install -r requirements.txt
-(Ensure you have the following dependencies: Pygame and NEAT-Python.)
-   ```
+
+    ```bash
+    pip install -r requirements.txt     #(Ensure you have the following dependencies: Pygame and NEAT-Python.)
+    ```
 
 3. **Add Game Assets:**
 
@@ -51,9 +51,10 @@ To run the game and start the AI training, execute the following command:
     ```bash
     python flappy_bird_neat.py
     ```
-    
+
 ## Project Structure
 
+   ```bash
 flappy-bird-neat/
 │
 ├── imgs/                       # Directory containing game assets (images)
@@ -68,6 +69,7 @@ flappy-bird-neat/
 ├── NEAT_config.txt             # NEAT configuration file
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
+   ```
 
 ## Configuration
 The NEAT algorithm's parameters are configured in the NEAT_config.txt file. You can adjust various settings like population size, mutation rates, and more to tweak the AI's training process.
