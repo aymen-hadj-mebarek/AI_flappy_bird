@@ -29,8 +29,8 @@ This project uses the NEAT algorithm to train a neural network that can play the
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/flappy-bird-neat.git
-   cd flappy-bird-neat
+   git clone https://github.com/aymen-hadj-mebarek/AI_flappy_bird/
+   cd AI_flappy_bird
    ```
 2. **Install Dependencies:**
 
@@ -49,13 +49,13 @@ Ensure that the image files for the bird, pipes, base, and background are locate
 To run the game and start the AI training, execute the following command:
     
    ```bash
-    python flappy_bird_neat.py
+    python flappy_bird.py
    ```
 
 ## Project Structure
 
    ```bash
-flappy-bird-neat/
+AI_flappy_bird/
 │
 ├── imgs/                       # Directory containing game assets (images)
 │   ├── bird1.png
@@ -79,7 +79,7 @@ The NEAT algorithm's parameters are configured in the NEAT_config.txt file. You 
 - Pygame
 - NEAT-Python
 
-""" You can install all dependencies via the requirements.txt file """
+ You can install all dependencies via the requirements.txt file 
 
 ## Credits
 This project was developed as a demonstration of the NEAT algorithm combined with the classic Flappy Bird game.
