@@ -12,7 +12,6 @@ This project is an implementation of a Flappy Bird game with an AI agent trained
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
 - [Credits](#credits)
-- [License](#license)
 
 ## Introduction
 
@@ -37,20 +36,21 @@ This project uses the NEAT algorithm to train a neural network that can play the
 
 You need Python 3.x installed. Install the required Python packages using pip:
 
-    ```bash
+    
+   ```bash
     pip install -r requirements.txt     #(Ensure you have the following dependencies: Pygame and NEAT-Python.)
-    ```
+   ```
 
 3. **Add Game Assets:**
 
 Ensure that the image files for the bird, pipes, base, and background are located in the imgs/ directory.
 
-Usage
+## Usage
 To run the game and start the AI training, execute the following command:
-
-    ```bash
+    
+   ```bash
     python flappy_bird_neat.py
-    ```
+   ```
 
 ## Project Structure
 
